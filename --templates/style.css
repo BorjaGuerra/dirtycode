@@ -1,0 +1,16 @@
+html{
+    box-sizing: border-box;
+    /*cuando metes padding, el ancho de la caja(recuerda modelo caja contenedor)
+    se calcula widht+padding+border, o sea que al meter padding
+    si tu has seteado algún contenedor de 250 de ancho y le metes un padding
+    de 10, eso se va a sumar al ancho.
+    con esta propiedad activa NO.*/
+}
+ 
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    /*se eliminan todos los padding y los margin que vienen por defecto y los reseteas a 0, de esta manera cuando estes editando tu css podrás poner el margin y el padding que quieras a los diferentes elementos sin que un anterior padding o margin le afecte o por ejemplo los que vienen por defecto en algunas cosas...*/
+}
+
