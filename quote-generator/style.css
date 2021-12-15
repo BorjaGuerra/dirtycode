@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap'); 
+/*importamos la fuente para la letra*/
+
+html{
+    box-sizing: border-box;
+    /*cuando metes padding, el ancho de la caja(recuerda modelo caja contenedor)
+    se calcula widht+padding+border, o sea que al meter padding
+    si tu has seteado algún contenedor de 250 de ancho y le metes un padding
+    de 10, eso se va a sumar al ancho.
+    con esta propiedad activa NO.*/
+}
+ 
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    /*se eliminan todos los padding y los margin que vienen por defecto y los reseteas a 0, de esta manera cuando estes editando tu css podrás poner el margin y el padding que quieras a los diferentes elementos sin que un anterior padding o margin le afecte o por ejemplo los que vienen por defecto en algunas cosas...*/
+    background-color:white;    
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2369d782' fill-opacity='0.6'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    color:rgb(2, 68, 2)
+    font-family: Kanit, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    display: flex; /*nos da libertad "flex" para situar dentro del contenedor que lo declaremos, en este caso 
+                    el body, para dntro d éste alinear, posicionar, etc elementos q metamos como nos dé la gana*/
+    align-items: center;
+    justify-content: center;/*define cómo el navegador distribuye el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor.*/
+
+
+
+}
+
